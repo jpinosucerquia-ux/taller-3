@@ -1,4 +1,8 @@
 # taller-3
+Integantes:
+Julian Pino Sucerquia
+Sebatian Yepes Vidales
+
 Este proyecto implementa una aplicación en Python capaz de cargar archivos médicos en formato DICOM, extraer metadatos relevantes según el estándar, organizar los datos en un DataFrame de Pandas, calcular la intensidad promedio de cada imagen a partir del pixel_array y exportar los resultados a un archivo CSV. El proyecto simula una parte del flujo de un sistema PACS, similar a soluciones como dcm4chee, donde los estudios médicos se vuelven accesibles, consultables y estructurados. Además, se utiliza Programación Orientada a Objetos mediante la clase ProcesadorDICOM para encapsular la lógica de carga, extracción y análisis.
 
 DICOM y HL7 son fundamentales para la interoperabilidad en salud porque permiten que diferentes sistemas hospitalarios intercambien información de manera estandarizada. DICOM es el estándar especializado en imágenes médicas y sus metadatos, definiendo cómo se almacenan y transmiten estudios como TC, RM o RX, además de asegurar compatibilidad entre equipos de distintos fabricantes. Por su parte, HL7 es un estándar orientado a la mensajería clínica y administrativa, permitiendo el intercambio de datos como información demográfica, órdenes médicas, resultados de laboratorio y movimientos del paciente. Conceptualmente, DICOM se centra en imágenes y su pixel data, mientras HL7 se enfoca en datos textuales y procesos administrativos. Ambos se complementan para lograr una verdadera interoperabilidad dentro de un hospital.
