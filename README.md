@@ -1,6 +1,6 @@
 # taller-3
 Integantes:
-Julian Pino Sucerquia
+Julian Pino Sucerquia, 
 Sebatian Yepes Vidales
 
 Este proyecto implementa una aplicación en Python capaz de cargar archivos médicos en formato DICOM, extraer metadatos relevantes según el estándar, organizar los datos en un DataFrame de Pandas, calcular la intensidad promedio de cada imagen a partir del pixel_array y exportar los resultados a un archivo CSV. El proyecto simula una parte del flujo de un sistema PACS, similar a soluciones como dcm4chee, donde los estudios médicos se vuelven accesibles, consultables y estructurados. Además, se utiliza Programación Orientada a Objetos mediante la clase ProcesadorDICOM para encapsular la lógica de carga, extracción y análisis.
